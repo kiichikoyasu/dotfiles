@@ -46,9 +46,13 @@ set tabstop=4
 set expandtab
 set whichwrap=b,s,h,l,<,>,[,]
 set smartindent
-
+set shiftwidth=2
 syntax on
+colorscheme molokai
 """"""""""""""""""""""""""""""""""""""
 
 " vimを立ち上げた時に自動的にvim-indent-guidesをオンにする
 let g:indent_guides_enable_on_vim_startup = 1
+" 一番上の階層は色を変えない
+let g:indent_guides_start_level = 2
+
