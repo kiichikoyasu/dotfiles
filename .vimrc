@@ -55,4 +55,5 @@ colorscheme molokai
 let g:indent_guides_enable_on_vim_startup = 1
 " 一番上の階層は色を変えない
 let g:indent_guides_start_level = 2
-
+" ガイドのラインを半角スペース1つ分にする
+let g:indent_guides_guide_size = 1
